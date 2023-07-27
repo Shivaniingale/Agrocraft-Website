@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agrocraft Marketplace</title>
+	<style>
+		body {
+            background-image: url('final.jpg'); 
+            background-size:100% ;
+            background-repeat:no-repeat;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #4CAF50;
+			color: white;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+		}
+		nav {
+			background-color: #f2f2f2;
+			display: flex;
+			justify-content: space-between;
+			padding: 10px;
+		}
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			align-items: center;
+		}
+		nav li {
+			margin: 0 10px;
+		}
+		nav a {
+			color: #333;
+			text-decoration: none;
+			padding: 10px;
+		}
+		nav a:hover {
+			background-color: #ddd;
+			color: #333;
+		}
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		.login-links {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 20px;
+		}
+		.login-links a {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			text-decoration: none;
+			border-radius: 5px;
+			font-weight: bold;
+			transition: background-color 0.3s ease;
+		}
+		.login-links a:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Agrocraft Marketplace</h1>
+	</header>
+	<!-- <nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+		<ul>
+			<li><a href="#">Buyer Login</a></li>
+			<li><a href="#">Seller Login</a></li>
+		</ul>
+	</nav> -->
+	<div class="container">
+		<h2>Welcome to Agrocraft Marketplace!</h2>
+		<p>We connect farmers with buyers and help facilitate the sale of high-quality agricultural products.</p>
+        <!-- <h1>ARE YOU A</h1> -->
+        
+		<div class="login-links">
+			<a href="auth/FarmerLogin.php">Buyer Login</a>
+			<a href="auth/BuyerLogin.php">Seller Login</a>
+		</div>
+	</div>
+</body>
+</html>
